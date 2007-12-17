@@ -10,7 +10,6 @@ License:	GPL
 Group:		Networking/Mail
 URL:		http://www.kalysto.org/utilities/dspam-scripts/index.en.html
 Source0:	http://www.kalysto.org/pkg/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch
 
 %description
