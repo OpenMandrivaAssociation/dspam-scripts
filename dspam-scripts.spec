@@ -1,6 +1,6 @@
 %define name	dspam-scripts
 %define version	0.0.6
-%define release	%mkrel 4
+%define release	%mkrel 5
 
 Summary:	A script for let dspam learning maildirs of spam/ham
 Name:		%{name}
