@@ -42,3 +42,33 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/dspam-learn
 %config(noreplace) %{_sysconfdir}/mail/dspam-learn.rc
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.0.6-6mdv2011.0
++ Revision: 617902
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.0.6-5mdv2010.0
++ Revision: 428384
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.0.6-4mdv2009.0
++ Revision: 244551
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.0.6-2mdv2008.1
++ Revision: 140722
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Thu Aug 23 2007 Thierry Vignaud <tv@mandriva.org> 0.0.6-2mdv2008.0
++ Revision: 70206
+- use %%mkrel
+
+
+* Thu Jan 27 2005 Giuseppe Ghibò <ghibo@mandrakesoft.com> 0.0.6-1mdk
+- Initial release.
+
