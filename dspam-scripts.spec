@@ -13,6 +13,11 @@ Source0:	http://www.kalysto.org/pkg/%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This package holds the 'dspam-learn' bash script that will help greatly using
 dspam learning by looking at mailbox directories rather than a forwarding
